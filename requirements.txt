@@ -1,0 +1,5 @@
+# Stage 1 only needs pytest; the rest are installed in their own stages.
+pytest        # unit tests
+pandas        # result tables (stage 2)
+matplotlib    # Gantt and statistical charts (stage 8)
+streamlit     # user interface (stage 9)
